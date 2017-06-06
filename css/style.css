@@ -1,0 +1,14 @@
+.calculator {
+  height: 300px;
+  width: 250px;
+  margin: 100px;
+  position: relative;
+  background-color: rgb(83, 97, 122);
+}
+
+.calculator-screen {
+  height: 50px;
+  width: auto;
+  background-color: #000;
+  margin: 20px 20px 20px 20px;
+}
