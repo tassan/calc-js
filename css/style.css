@@ -6,9 +6,49 @@
   background-color: rgb(83, 97, 122);
 }
 
-.calculator-screen {
-  height: 50px;
+.screen {
+  width: 200px;
+}
+
+.screen > textarea {
+  resize: none;
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+}
+
+.controls {
+  position: absolute;
+  display: inline-block;
   width: auto;
-  background-color: #000;
-  margin: 20px 20px 20px 20px;
+}
+
+.controls > button {
+  margin: 5px 0 0 20px;
+  width: 35px;
+  height: 35px;
+}
+
+.operators {
+  position: relative;
+  display: grid;
+  float: right;
+}
+
+.operators > button {
+  margin: 5px 5px 0 0;
+  width: 35px;
+  height: 35px;
+}
+
+.numbers{
+  display: table;
+  width: auto;
+  margin: 50px 10px;
+  padding: 0;
+}
+
+.numbers > button {
+  margin: 5px 0 0 20px;
+  width: 35px;
+  height: 35px;
 }
